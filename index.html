@@ -4,7 +4,87 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link href="/style.css" rel="stylesheet" crossorigin="anonymous" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <title>Anniv Kita</title>
   </head>
-  <body></body>
+  <body>
+    <div class="spin-cont">
+      <div class="spinner-border" role="status">
+        <span class="sr-only"></span>
+      </div>
+    </div>
+    <div class="container">
+      <div class="art col">
+        <img src="/src/art.png" alt="art" />
+      </div>
+      <div class="msg col">
+        <div class="title col">
+          <h3>Sayangku, udah 1 tahun nih kita, heheh♡</h3>
+        </div>
+        <div class="audio col">
+          <audio controls autoplay>
+            <source src="/src/music.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+        <div class="text col">
+          <p class="text-center">
+            Sayang, terimakasih ya setahun ini kita selalu bersama, dalam susah
+            maupun senang. Dalam setahun ini kita dihadapkan dengan tantangan
+            yang namanya LDR, Kita selalu dihadapkan pada keraguan, bertahan
+            nggak bertahan nggak Tapi, dengan modal keyakinan dan usaha kita,
+            hubungan ini bisa bertahan hingga sekarang yang. Aku sueneeeng
+            banget, dan pastinya ayang seneng juga kan, pada akhirnya hubungan
+            kita sampai setahun juga.
+          </p>
+          <p class="text-center">
+            Jujur, aku bingung mau nyiapin ini semua gimana, udah dari beberapa
+            hari yang lalu aku mikirin konsep ini, tapi pada akhirnya, yaa cuma
+            seperti ini bisaku yang, heheh. Maaf juga kalau gambarnya agak
+            kurang bagus, aku inget kita pernah bikin foto jari lope lope, tak
+            satuin, tak lukis deh, heheh.
+          </p>
+          <p class="text-center">
+            Sayang, kita akan tetap bertahan kan nanti, dan selamanya. Aku udah
+            nyaman banget sama ayang, aku baru pertama ini ngerasain hubungan
+            yang bener bener spesial banget, nggak ada siapapun yang ganggu kita
+            sampai setahun ini, padahal kita LDR, dan kita berhasil melewati
+            rintangan itu selama setahun ini.
+          </p>
+          <p class="text-center">
+            I love you sayang, aku akan terus mencintaimu, akan terus
+            menyayangimu, sampai kapan pun. Aku akan selalu ada di sisimu,
+            selalu jadikan aku salah satu prioritas di hidupmu, aku juga akan
+            selalu jadikan ayang salah satu prioritasku. Satu hari ini akan jadi
+            hari yang paling spesial untuk kita, selain ultah kita, heheh.
+            Bertahan terus sampai 25-09 yang akan datang, dan seterusnya
+            pokoknya. Maaciww sayangku cintakuu, cantikkuu, muahh muahhh
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const spinwrap = document.querySelector(".spin-cont");
+
+      setTimeout(() => {
+        spinwrap.style.opacity = "0";
+      }, 1000);
+    </script>
+  </body>
 </html>
